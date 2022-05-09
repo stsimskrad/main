@@ -1,0 +1,58 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class School extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'name',
+        'class_id',
+        'term_id',
+        'grading_id',
+        'code',
+    ];
+
+    public function campuses()
+    {
+        return $this->hasMany('App\Models\SchoolCampus', 'school_id');
+    } 
+
+    public function campus()
+    {
+        return $this->hasMany('App\Models\SchoolCampus', 'school_id')->count();
+    } 
+
+    public function class()
+    {
+        return $this->belongsTo('App\Models\ListDropdown', 'class_id', 'id');
+    }
+
+    public function term()
+    {
+        return $this->belongsTo('App\Models\ListDropdown', 'term_id', 'id');
+    }
+
+    public function grading()
+    {
+        return $this->belongsTo('App\Models\ListDropdown', 'grading_id', 'id');
+    }
+
+    public function getNameAttribute($value){
+        return strtoupper($value);
+    }
+
+    public function getUpdatedAtAttribute($value)
+    {
+        return date('M d, Y g:i a', strtotime($value));
+    }
+
+    public function getCreatedAtAttribute($value)
+    {
+        return date('M d, Y g:i a', strtotime($value));
+    }
+}
