@@ -36,6 +36,15 @@ class DatabaseSeeder extends Seeder
         $this->call(UsersTableSeeder::class);
         $this->call(UserProfilesTableSeeder::class);
         $this->call(LocationRegionsTableSeeder::class);
+        $this->call(LocationProvincesTableSeeder::class);
+        $this->call(LocationMunicipalitiesTableSeeder::class);
+        $this->call(LocationBarangaysTableSeeder::class);
+        $this->call(ListDropdownsTableSeeder::class);
+        $this->call(ListAgenciesTableSeeder::class);
+        $this->call(ListBenefitsTableSeeder::class);
+        $this->call(ListCoursesTableSeeder::class);
+        $this->call(ListExpensesTableSeeder::class);
+        $this->call(ListProgramsTableSeeder::class);
         $this->call(SchoolsTableSeeder::class);
         $this->call(SchoolCampusesTableSeeder::class);
     }
