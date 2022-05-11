@@ -22,7 +22,7 @@ class SchoolsTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'Western Mindanao State University',
                 'avatar' => 'school.jpg',
                 'class_id' => 8,
@@ -34,7 +34,7 @@ class SchoolsTableSeeder extends Seeder
             1 => 
             array (
                 'id' => 2,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'Ateneo de Zamboanga University',
                 'avatar' => 'school.jpg',
                 'class_id' => 7,
@@ -46,7 +46,7 @@ class SchoolsTableSeeder extends Seeder
             2 => 
             array (
                 'id' => 3,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'Universidad de Zamboanga',
                 'avatar' => 'school.jpg',
                 'class_id' => 7,
@@ -58,7 +58,7 @@ class SchoolsTableSeeder extends Seeder
             3 => 
             array (
                 'id' => 4,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'Zamboanga State College of Marine Sciences and Technolgy',
                 'avatar' => 'school.jpg',
                 'class_id' => 8,
@@ -70,7 +70,7 @@ class SchoolsTableSeeder extends Seeder
             4 => 
             array (
                 'id' => 5,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'Zamboanga City State Polytechnic College',
                 'avatar' => 'school.jpg',
                 'class_id' => 8,
@@ -82,7 +82,7 @@ class SchoolsTableSeeder extends Seeder
             5 => 
             array (
                 'id' => 6,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'Pilar College',
                 'avatar' => 'school.jpg',
                 'class_id' => 7,
@@ -94,7 +94,7 @@ class SchoolsTableSeeder extends Seeder
             6 => 
             array (
                 'id' => 7,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'Jose Rizal Memorial State University',
                 'avatar' => 'school.jpg',
                 'class_id' => 8,
@@ -106,7 +106,7 @@ class SchoolsTableSeeder extends Seeder
             7 => 
             array (
                 'id' => 8,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'Andres Bonifacio College',
                 'avatar' => 'school.jpg',
                 'class_id' => 7,
@@ -118,7 +118,7 @@ class SchoolsTableSeeder extends Seeder
             8 => 
             array (
                 'id' => 9,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'Basilan State College',
                 'avatar' => 'school.jpg',
                 'class_id' => 7,
@@ -130,7 +130,7 @@ class SchoolsTableSeeder extends Seeder
             9 => 
             array (
                 'id' => 10,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'Saint Columban College',
                 'avatar' => 'school.jpg',
                 'class_id' => 7,
@@ -142,7 +142,7 @@ class SchoolsTableSeeder extends Seeder
             10 => 
             array (
                 'id' => 11,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'Saint Vincent\'s College',
                 'avatar' => 'school.jpg',
                 'class_id' => 7,
@@ -154,7 +154,7 @@ class SchoolsTableSeeder extends Seeder
             11 => 
             array (
                 'id' => 12,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'Dipolog City Institute of Technology',
                 'avatar' => 'school.jpg',
                 'class_id' => 7,
@@ -166,7 +166,7 @@ class SchoolsTableSeeder extends Seeder
             12 => 
             array (
                 'id' => 13,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'Dipolog Medical Center College Foundation Inc',
                 'avatar' => 'school.jpg',
                 'class_id' => 7,
@@ -178,7 +178,7 @@ class SchoolsTableSeeder extends Seeder
             13 => 
             array (
                 'id' => 14,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'Southern Mindanao College',
                 'avatar' => 'school.jpg',
                 'class_id' => 8,
@@ -190,7 +190,7 @@ class SchoolsTableSeeder extends Seeder
             14 => 
             array (
                 'id' => 15,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'St. Joseph College of Sindangan Inc.',
                 'avatar' => 'school.jpg',
                 'class_id' => 7,
@@ -202,7 +202,7 @@ class SchoolsTableSeeder extends Seeder
             15 => 
             array (
                 'id' => 16,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'JH Cerilles State College',
                 'avatar' => 'school.jpg',
                 'class_id' => 8,
@@ -214,7 +214,7 @@ class SchoolsTableSeeder extends Seeder
             16 => 
             array (
                 'id' => 17,
-                'code' => NULL,
+                'code' => '',
                 'name' => 'Mindanao State University',
                 'avatar' => 'school.jpg',
                 'class_id' => 8,
