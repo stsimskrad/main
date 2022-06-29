@@ -13,6 +13,11 @@ class ListCourse extends Model
         'name', 'abbreviation', 'others'
     ];
 
+    public function scholar()
+    {
+        return $this->belongsTo('App\Models\Scholar', 'course_id', 'id');
+    }
+
     public function getNameAttribute($value)
     {
         return ucwords(strtolower($value));

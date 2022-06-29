@@ -8,10 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class ListBenefit extends Model
 {
     use HasFactory;
-<<<<<<< HEAD
-
-=======
->>>>>>> c5e76286841c3c7decb067c241d88e49a9a1cfd3
     protected $fillable = [
         'name', 'type', 'amount' ,'is_summer' ,'is_fixed' ,'is_active', 'information'
     ];

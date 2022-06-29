@@ -17,4 +17,9 @@ class LocationRegion extends Model
     {
         return $this->hasMany('App\Models\LocationProvince', 'region_code');
     } 
+
+    public function endorsement()
+    {
+        return $this->hasOne('App\Models\Endorsement', 'scholar_id');
+    } 
 }
